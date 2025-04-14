@@ -1,0 +1,303 @@
+{
+  "metadata": {
+    "regulationId": "SAFE-2022-29",
+    "title": "支付机构跨境外汇支付业务试点指导意见",
+    "shortTitle": "支付机构跨境外汇支付指导意见",
+    "issuingBody": "国家外汇管理局",
+    "issuingBodyCode": "SAFE",
+    "documentNumber": "汇发[2022]29号",
+    "issueDate": "2022-07-20",
+    "effectiveDate": "2022-08-01",
+    "expirationDate": null,
+    "status": "effective",
+    "regulationType": "guidance",
+    "regulationLevel": "department",
+    "replacedRegulations": [],
+    "amendedBy": [],
+    "officialUrl": "https://www.safe.gov.cn/safe/2022/0720/12345.html",
+    "language": "zh-CN"
+  },
+  
+  "classification": {
+    "businessTypes": ["cross_border_payment", "forex_payment", "payment_institution"],
+    "applicableEntities": ["payment_institution", "bank"],
+    "regulatoryFocus": ["business_qualification", "risk_management", "reporting", "customer_verification"],
+    "regions": ["mainland_china"],
+    "tags": ["支付机构", "跨境支付", "外汇支付", "试点业务"]
+  },
+  
+  "content": {
+    "summary": "本指导意见规范支付机构开展跨境外汇支付业务试点，明确业务资质要求、风险管理措施和数据报送要求。",
+    "chapters": [
+      {
+        "chapterNumber": 1,
+        "title": "总则",
+        "articles": [
+          {
+            "articleNumber": 1,
+            "content": "为规范支付机构跨境外汇支付业务，促进贸易投资便利化，根据《中华人民共和国外汇管理条例》等法律法规，制定本指导意见。",
+            "keywords": ["立法目的", "法律依据"],
+            "businessScenarios": []
+          },
+          {
+            "articleNumber": 2,
+            "content": "本指导意见适用于经国家外汇管理局批准开展跨境外汇支付业务试点的支付机构。",
+            "keywords": ["适用范围", "试点支付机构"],
+            "businessScenarios": []
+          }
+        ]
+      },
+      {
+        "chapterNumber": 2,
+        "title": "业务资质与范围",
+        "articles": [
+          {
+            "articleNumber": 5,
+            "content": "支付机构申请跨境外汇支付业务试点资格，应当具备以下条件：\n(一)取得中国人民银行颁发的《支付业务许可证》，获准办理互联网支付业务；\n(二)具有稳健的公司治理结构和完善的内控制度；\n(三)具备开展跨境外汇支付业务的技术条件和风险管理能力；\n(四)近两年无重大违法违规行为。",
+            "keywords": ["试点资格", "申请条件", "支付业务许可证", "内控制度", "技术条件", "风险管理能力"],
+            "businessScenarios": ["qualification_application"],
+            "riskLevel": "high",
+            "complianceRequirements": ["license_verification", "governance_assessment", "technical_capability"]
+          },
+          {
+            "articleNumber": 6,
+            "content": "支付机构可在以下业务范围内开展跨境外汇支付业务：\n(一)货物贸易、服务贸易等经常项目跨境外汇支付；\n(二)经外汇局批准的资本项目跨境外汇支付；\n(三)外汇局规定的其他跨境外汇支付业务。",
+            "keywords": ["业务范围", "经常项目", "资本项目", "跨境外汇支付"],
+            "businessScenarios": ["cross_border_payment_scope"],
+            "riskLevel": "medium",
+            "complianceRequirements": ["business_scope_compliance"]
+          }
+        ]
+      },
+      {
+        "chapterNumber": 3,
+        "title": "业务管理与风险控制",
+        "articles": [
+          {
+            "articleNumber": 9,
+            "content": "支付机构应当按照展业原则和'了解你的客户'要求，对客户身份进行识别、核实和登记，不得为身份不明的客户提供跨境外汇支付服务。",
+            "keywords": ["了解你的客户", "KYC", "客户身份识别", "身份核实"],
+            "businessScenarios": ["customer_verification"],
+            "riskLevel": "very_high",
+            "complianceRequirements": ["identity_verification", "customer_due_diligence"]
+          },
+          {
+            "articleNumber": 10,
+            "content": "支付机构应当对跨境外汇支付业务的真实性、合法性进行审核，确保交易信息的真实、完整、可追溯。",
+            "keywords": ["真实性审核", "合法性审核", "交易信息", "可追溯"],
+            "businessScenarios": ["transaction_verification"],
+            "riskLevel": "very_high",
+            "complianceRequirements": ["transaction_verification", "information_integrity"]
+          },
+          {
+            "articleNumber": 11,
+            "content": "支付机构应当采集并保存跨境外汇支付业务的交易信息，保存期限不少于5年。",
+            "keywords": ["交易信息", "采集", "保存", "5年"],
+            "businessScenarios": ["information_retention"],
+            "riskLevel": "high",
+            "complianceRequirements": ["data_retention"]
+          },
+          {
+            "articleNumber": 12,
+            "content": "支付机构应当建立跨境外汇支付业务风险管理制度，包括但不限于客户准入、交易监测、大额交易报告、可疑交易报告等制度。",
+            "keywords": ["风险管理制度", "客户准入", "交易监测", "大额交易报告", "可疑交易报告"],
+            "businessScenarios": ["risk_management"],
+            "riskLevel": "high",
+            "complianceRequirements": ["risk_management_system", "transaction_monitoring", "suspicious_transaction_reporting"]
+          }
+        ]
+      },
+      {
+        "chapterNumber": 4,
+        "title": "数据报送与监督管理",
+        "articles": [
+          {
+            "articleNumber": 15,
+            "content": "支付机构应当按照外汇局要求，及时、准确地报送跨境外汇支付业务数据和相关统计报表。",
+            "keywords": ["数据报送", "统计报表", "及时", "准确"],
+            "businessScenarios": ["data_reporting"],
+            "riskLevel": "medium",
+            "complianceRequirements": ["data_reporting", "statistical_reporting"]
+          },
+          {
+            "articleNumber": 16,
+            "content": "外汇局对支付机构跨境外汇支付业务实施监督检查，支付机构应当予以配合，如实提供相关资料。",
+            "keywords": ["监督检查", "配合", "提供资料"],
+            "businessScenarios": ["regulatory_inspection"],
+            "riskLevel": "medium",
+            "complianceRequirements": ["regulatory_cooperation"]
+          }
+        ]
+      }
+    ]
+  },
+  
+  "implementation": {
+    "keyRequirements": [
+      {
+        "requirement": "客户身份识别",
+        "description": "对客户身份进行识别、核实和登记",
+        "articleReferences": [{"chapterNumber": 3, "articleNumber": 9}],
+        "implementationDate": "2022-08-01"
+      },
+      {
+        "requirement": "交易真实性审核",
+        "description": "对跨境外汇支付业务的真实性、合法性进行审核",
+        "articleReferences": [{"chapterNumber": 3, "articleNumber": 10}],
+        "implementationDate": "2022-08-01"
+      },
+      {
+        "requirement": "交易信息保存",
+        "description": "采集并保存交易信息不少于5年",
+        "articleReferences": [{"chapterNumber": 3, "articleNumber": 11}],
+        "implementationDate": "2022-08-01"
+      },
+      {
+        "requirement": "风险管理制度",
+        "description": "建立跨境外汇支付业务风险管理制度",
+        "articleReferences": [{"chapterNumber": 3, "articleNumber": 12}],
+        "implementationDate": "2022-08-01"
+      },
+      {
+        "requirement": "数据报送",
+        "description": "及时、准确地报送业务数据和统计报表",
+        "articleReferences": [{"chapterNumber": 4, "articleNumber": 15}],
+        "implementationDate": "2022-08-01"
+      }
+    ],
+    "operationalGuidelines": {
+      "paymentInstitutionRequirements": {
+        "customerVerification": {
+          "requiredDocuments": ["身份证", "营业执照", "经营资质证明"],
+          "verificationProcess": "线上身份认证、线下实名认证"
+        },
+        "transactionProcessing": {
+          "verificationItems": ["交易背景", "资金来源", "交易金额", "交易频率"],
+          "riskControlMeasures": ["交易限额", "实时监控", "风险评级"]
+        },
+        "dataReporting": {
+          "reportingFrequency": "每日、每月、每季度",
+          "reportingContent": "交易金额、交易笔数、客户信息、异常交易"
+        }
+      }
+    }
+  },
+  
+  "vectorIndexing": {
+    "keyPhrases": [
+      "支付机构跨境外汇支付业务试点",
+      "了解你的客户要求",
+      "交易信息保存5年",
+      "跨境外汇支付业务风险管理制度"
+    ],
+    "semanticSummaries": {
+      "forPaymentInstitutions": "规定支付机构开展跨境外汇支付业务的资质要求和风险管理措施",
+      "forRegulators": "明确对支付机构跨境外汇支付业务的监管要求和数据报送规定",
+      "forCustomers": "支付机构提供跨境外汇支付服务的业务范围和客户身份要求"
+    }
+  },
+  
+  "relatedRegulations": [
+    {
+      "regulationId": "SAFE-2023-15",
+      "title": "个人外汇管理办法",
+      "relationship": "complementary",
+      "relevantArticles": [{"regulationId": "SAFE-2023-15", "articleNumbers": [5, 6]}]
+    },
+    {
+      "regulationId": "SAFE-2023-08",
+      "title": "跨境电子商务外汇管理办法",
+      "relationship": "complementary",
+      "relevantArticles": [{"regulationId": "SAFE-2023-08", "articleNumbers": [3, 7]}]
+    }
+  ],
+  
+  "practicalGuidance": {
+    "commonScenarios": [
+      {
+        "scenario": "申请试点资格",
+        "applicableArticles": [{"chapterNumber": 2, "articleNumber": 5}],
+        "procedureSteps": [
+          "1. 确认已取得《支付业务许可证》并获准办理互联网支付业务",
+          "2. 完善公司治理结构和内控制度",
+          "3. 建立跨境外汇支付业务技术系统和风险管理体系",
+          "4. 准备申请材料，包括业务可行性报告、风险管理制度等",
+          "5. 向所在地外汇局提交申请",
+          "6. 接受外汇局现场检查和评估",
+          "7. 获得批准后开展业务"
+        ],
+        "commonIssues": [
+          {
+            "issue": "内控制度不完善",
+            "solution": "参考行业最佳实践，完善内控制度，特别是客户身份识别、交易监测等方面"
+          },
+          {
+            "issue": "技术系统不符合要求",
+            "solution": "升级技术系统，确保支持交易信息采集、保存和报送功能"
+          }
+        ]
+      },
+      {
+        "scenario": "客户身份识别",
+        "applicableArticles": [{"chapterNumber": 3, "articleNumber": 9}],
+        "procedureSteps": [
+          "1. 制定客户身份识别程序和标准",
+          "2. 收集客户身份信息和证明材料",
+          "3. 验证客户身份信息的真实性",
+          "4. 建立客户身份档案",
+          "5. 定期更新客户身份信息"
+        ],
+        "commonIssues": [
+          {
+            "issue": "客户提供虚假身份信息",
+            "solution": "采用多种验证手段，如人脸识别、银行卡验证等，确保身份真实性"
+          },
+          {
+            "issue": "客户身份信息过期",
+            "solution": "建立客户身份信息定期更新机制，提醒客户更新信息"
+          }
+        ]
+      }
+    ],
+    "complianceChecklist": [
+      {
+        "checkpointName": "业务资质",
+        "requirement": "取得《支付业务许可证》并获准办理互联网支付业务",
+        "riskLevel": "very_high",
+        "verificationMethod": "查验许可证原件及业务范围"
+      },
+      {
+        "checkpointName": "客户身份识别",
+        "requirement": "对客户身份进行识别、核实和登记",
+        "riskLevel": "very_high",
+        "verificationMethod": "审核客户身份识别程序和实施情况"
+      },
+      {
+        "checkpointName": "交易真实性审核",
+        "requirement": "对交易真实性、合法性进行审核",
+        "riskLevel": "very_high",
+        "verificationMethod": "抽查交易记录和审核证明材料"
+      },
+      {
+        "checkpointName": "交易信息保存",
+        "requirement": "保存交易信息不少于5年",
+        "riskLevel": "high",
+        "verificationMethod": "检查数据存储系统和历史数据完整性"
+      },
+      {
+        "checkpointName": "数据报送",
+        "requirement": "及时、准确报送业务数据和统计报表",
+        "riskLevel": "medium",
+        "verificationMethod": "核对报送记录和数据质量"
+      }
+    ]
+  },
+  
+  "updateHistory": [
+    {
+      "version": "1.0",
+      "updateDate": "2022-07-20",
+      "changes": "首次发布"
+    }
+  ]
+}

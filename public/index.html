@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>跨境支付监管助手</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>跨境支付监管助手</h1>
+            <p class="subtitle">基于法规知识库的智能咨询系统</p>
+        </header>
+
+        <main>
+            <section class="query-section">
+                <div class="query-container">
+                    <textarea id="query-input" placeholder="请输入您的跨境支付监管问题，例如：个人年度购汇额度是多少？跨境电商平台需要遵守哪些外汇规定？"></textarea>
+                    <button id="submit-btn">提交问题</button>
+                </div>
+            </section>
+
+            <section class="result-section" id="result-section">
+                <div class="loading" id="loading">
+                    <div class="spinner"></div>
+                    <p>正在查询相关法规...</p>
+                </div>
+
+                <div class="result-container" id="result-container">
+                    <div class="answer-container">
+                        <h2>回答</h2>
+                        <div id="answer-content" class="answer-content"></div>
+                    </div>
+
+                    <div class="references-container">
+                        <h2>参考法规</h2>
+                        <div id="references-list" class="references-list"></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>跨境支付监管助手 MVP v0.1.0 | 知识库更新日期：2024年10月</p>
+            <p>注意：本系统仅供参考，具体业务请以官方法规为准</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

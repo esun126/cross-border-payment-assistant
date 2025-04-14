@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: cross-border-payment-assistant
+    ports:
+      - "3001:3001"
+    volumes:
+      - ./data:/app/data
+      - ./.env:/app/.env
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
+
+# 未来可以添加数据库服务
+# services:
+#   mongodb:
+#     image: mongo:latest
+#     container_name: mongodb
+#     ports:
+#       - "27017:27017"
+#     volumes:
+#       - mongodb_data:/data/db
+#     restart: unless-stopped
+
+# volumes:
+#   mongodb_data:

@@ -1,0 +1,266 @@
+{
+  "metadata": {
+    "regulationId": "SAFE-2023-15",
+    "title": "个人外汇管理办法",
+    "shortTitle": "个人外汇管理办法",
+    "issuingBody": "国家外汇管理局",
+    "issuingBodyCode": "SAFE",
+    "documentNumber": "汇发[2023]15号",
+    "issueDate": "2023-05-10",
+    "effectiveDate": "2023-06-01",
+    "expirationDate": null,
+    "status": "effective",
+    "regulationType": "administrative_regulation",
+    "regulationLevel": "department",
+    "replacedRegulations": ["SAFE-2006-3"],
+    "amendedBy": [],
+    "officialUrl": "https://www.safe.gov.cn/safe/2023/0510/12345.html",
+    "language": "zh-CN"
+  },
+  
+  "classification": {
+    "businessTypes": ["personal_forex", "current_account", "capital_account"],
+    "applicableEntities": ["individual", "bank", "payment_institution"],
+    "regulatoryFocus": ["forex_purchase", "forex_sale", "overseas_investment", "reporting"],
+    "regions": ["mainland_china"],
+    "tags": ["个人外汇", "购汇", "结汇", "境外投资"]
+  },
+  
+  "content": {
+    "summary": "本办法规范个人外汇管理，明确个人经常项目和资本项目外汇收支管理要求，规定个人外汇账户的开立和使用规则。",
+    "chapters": [
+      {
+        "chapterNumber": 1,
+        "title": "总则",
+        "articles": [
+          {
+            "articleNumber": 1,
+            "content": "为完善个人外汇管理，维护外汇市场秩序，根据《中华人民共和国外汇管理条例》等法律法规，制定本办法。",
+            "keywords": ["立法目的", "法律依据"],
+            "businessScenarios": []
+          },
+          {
+            "articleNumber": 2,
+            "content": "本办法适用于境内个人和境外个人在境内的外汇收支及外汇账户管理。",
+            "keywords": ["适用范围", "境内个人", "境外个人"],
+            "businessScenarios": []
+          }
+        ]
+      },
+      {
+        "chapterNumber": 2,
+        "title": "经常项目外汇管理",
+        "articles": [
+          {
+            "articleNumber": 5,
+            "content": "境内个人年度经常项目外汇购汇额度为等值5万美元。超过年度额度的，凭有交易额的真实性证明材料办理。",
+            "keywords": ["年度购汇额度", "5万美元", "真实性证明"],
+            "businessScenarios": ["personal_forex_purchase"],
+            "riskLevel": "high",
+            "complianceRequirements": ["transaction_verification"]
+          },
+          {
+            "articleNumber": 6,
+            "content": "境内个人可以凭本人有效身份证件在银行办理经常项目外汇收支，金额超过等值5万美元的，应当提供交易真实性证明材料。",
+            "keywords": ["经常项目", "外汇收支", "身份证件", "真实性证明"],
+            "businessScenarios": ["personal_forex_transaction"],
+            "riskLevel": "medium",
+            "complianceRequirements": ["identity_verification", "transaction_verification"]
+          }
+        ]
+      },
+      {
+        "chapterNumber": 3,
+        "title": "资本项目外汇管理",
+        "articles": [
+          {
+            "articleNumber": 10,
+            "content": "境内个人办理境外直接投资外汇登记及资金汇出，应当向外汇局提交相关真实性证明材料。",
+            "keywords": ["境外直接投资", "外汇登记", "资金汇出", "真实性证明"],
+            "businessScenarios": ["overseas_direct_investment"],
+            "riskLevel": "very_high",
+            "complianceRequirements": ["registration", "transaction_verification"]
+          },
+          {
+            "articleNumber": 11,
+            "content": "境内个人参与境外上市公司股权激励计划，应当向外汇局申请办理外汇登记。",
+            "keywords": ["境外上市公司", "股权激励", "外汇登记"],
+            "businessScenarios": ["equity_incentive"],
+            "riskLevel": "high",
+            "complianceRequirements": ["registration"]
+          }
+        ]
+      },
+      {
+        "chapterNumber": 4,
+        "title": "个人外汇账户管理",
+        "articles": [
+          {
+            "articleNumber": 15,
+            "content": "境内个人在境内银行开立外汇账户，应当提供本人有效身份证件。",
+            "keywords": ["外汇账户", "开立", "身份证件"],
+            "businessScenarios": ["account_opening"],
+            "riskLevel": "low",
+            "complianceRequirements": ["identity_verification"]
+          },
+          {
+            "articleNumber": 16,
+            "content": "境外个人在境内银行开立外汇账户，应当提供本人有效护照或其他身份证明文件。",
+            "keywords": ["境外个人", "外汇账户", "开立", "护照"],
+            "businessScenarios": ["foreigner_account_opening"],
+            "riskLevel": "medium",
+            "complianceRequirements": ["identity_verification"]
+          }
+        ]
+      }
+    ]
+  },
+  
+  "implementation": {
+    "keyRequirements": [
+      {
+        "requirement": "年度购汇额度",
+        "description": "境内个人年度经常项目外汇购汇额度为等值5万美元",
+        "articleReferences": [{"chapterNumber": 2, "articleNumber": 5}],
+        "implementationDate": "2023-06-01"
+      },
+      {
+        "requirement": "真实性审核",
+        "description": "超过额度的购汇需提供交易真实性证明材料",
+        "articleReferences": [{"chapterNumber": 2, "articleNumber": 5}, {"chapterNumber": 2, "articleNumber": 6}],
+        "implementationDate": "2023-06-01"
+      },
+      {
+        "requirement": "境外投资登记",
+        "description": "境内个人办理境外直接投资需办理外汇登记",
+        "articleReferences": [{"chapterNumber": 3, "articleNumber": 10}],
+        "implementationDate": "2023-06-01"
+      }
+    ],
+    "operationalGuidelines": {
+      "bankRequirements": {
+        "customerVerification": {
+          "requiredDocuments": ["身份证", "护照"],
+          "verificationProcess": "人脸识别、证件核验"
+        },
+        "transactionProcessing": {
+          "withinQuota": "仅凭有效身份证件办理",
+          "exceedQuota": "需提供交易真实性证明材料"
+        }
+      },
+      "individualRequirements": {
+        "purchaseWithinQuota": {
+          "requiredDocuments": ["身份证"],
+          "process": "银行柜台或网银办理"
+        },
+        "purchaseExceedQuota": {
+          "requiredDocuments": ["身份证", "交易合同", "发票", "其他证明材料"],
+          "process": "银行柜台办理，提交真实性证明材料"
+        }
+      }
+    }
+  },
+  
+  "vectorIndexing": {
+    "keyPhrases": [
+      "个人年度购汇额度5万美元",
+      "个人外汇账户开立",
+      "境外直接投资外汇登记",
+      "境外上市公司股权激励计划"
+    ],
+    "semanticSummaries": {
+      "forIndividuals": "规定个人购汇额度和外汇账户开立要求",
+      "forBanks": "明确银行办理个人外汇业务的审核要求",
+      "forRegulators": "规范个人外汇管理，防范跨境资金流动风险"
+    }
+  },
+  
+  "relatedRegulations": [
+    {
+      "regulationId": "SAFE-2023-08",
+      "title": "跨境电子商务外汇管理办法",
+      "relationship": "complementary",
+      "relevantArticles": [{"regulationId": "SAFE-2023-08", "articleNumbers": [4, 6]}]
+    },
+    {
+      "regulationId": "SAFE-2022-29",
+      "title": "支付机构跨境外汇支付业务试点指导意见",
+      "relationship": "complementary",
+      "relevantArticles": [{"regulationId": "SAFE-2022-29", "articleNumbers": [9, 12]}]
+    }
+  ],
+  
+  "practicalGuidance": {
+    "commonScenarios": [
+      {
+        "scenario": "个人购汇",
+        "applicableArticles": [{"chapterNumber": 2, "articleNumber": 5}],
+        "procedureSteps": [
+          "1. 准备有效身份证件",
+          "2. 登录银行网银或前往银行柜台",
+          "3. 选择购汇业务，输入购汇金额",
+          "4. 如金额超过5万美元，准备并提交交易真实性证明材料",
+          "5. 完成购汇交易"
+        ],
+        "commonIssues": [
+          {
+            "issue": "超额购汇被拒",
+            "solution": "准备完整的交易真实性证明材料，如留学录取通知书、学费单等"
+          },
+          {
+            "issue": "不知道哪些材料可作为真实性证明",
+            "solution": "咨询银行工作人员，一般包括交易合同、发票、订单等能证明交易真实性的文件"
+          }
+        ]
+      },
+      {
+        "scenario": "境外投资",
+        "applicableArticles": [{"chapterNumber": 3, "articleNumber": 10}],
+        "procedureSteps": [
+          "1. 准备境外投资相关材料，如投资协议、境外公司注册文件等",
+          "2. 向外汇局申请办理境外直接投资外汇登记",
+          "3. 获得外汇局批准后，前往银行办理资金汇出手续",
+          "4. 完成境外投资"
+        ],
+        "commonIssues": [
+          {
+            "issue": "登记材料不完整",
+            "solution": "按照外汇局要求，准备完整的投资协议、境外公司注册文件等材料"
+          },
+          {
+            "issue": "投资金额较大",
+            "solution": "可能需要提供更详细的投资计划和资金来源证明"
+          }
+        ]
+      }
+    ],
+    "complianceChecklist": [
+      {
+        "checkpointName": "身份验证",
+        "requirement": "提供有效身份证件",
+        "riskLevel": "medium",
+        "verificationMethod": "人脸识别、证件核验"
+      },
+      {
+        "checkpointName": "交易真实性",
+        "requirement": "超过5万美元需提供真实性证明",
+        "riskLevel": "high",
+        "verificationMethod": "审核交易合同、发票等证明材料"
+      },
+      {
+        "checkpointName": "境外投资登记",
+        "requirement": "办理境外直接投资需进行外汇登记",
+        "riskLevel": "very_high",
+        "verificationMethod": "外汇局审核投资协议、境外公司注册文件等"
+      }
+    ]
+  },
+  
+  "updateHistory": [
+    {
+      "version": "1.0",
+      "updateDate": "2023-05-10",
+      "changes": "首次发布"
+    }
+  ]
+}

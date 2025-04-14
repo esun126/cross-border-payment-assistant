@@ -1,0 +1,32 @@
+{
+  "name": "cross-border-payment-assistant",
+  "version": "0.1.0",
+  "description": "跨境支付监管助手 - 基于法规知识库的智能咨询系统",
+  "main": "api_service.js",
+  "type": "module",
+  "scripts": {
+    "start": "node api_service.js",
+    "dev": "nodemon api_service.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cross-border-payment",
+    "regulation",
+    "compliance",
+    "assistant",
+    "knowledge-base"
+  ],
+  "author": "RegTechDev",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
